@@ -34,6 +34,7 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```
 module lab2 (
     input  wire A,
     input  wire B,
@@ -45,7 +46,7 @@ module lab2 (
 assign F = (~A & B) | (C & D) | (A & ~D);
 
 endmodule
-
+```
 
 Developed by:LAVANYA D RegisterNumber:25016895
 
